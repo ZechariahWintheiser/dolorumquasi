@@ -1,0 +1,31 @@
+{
+  "name": "dolorumquasi",
+  "version": "1.0.0",
+  "description": "\"Javascript library that allows you to accept Ethereum payments on your website or mobile app\"",
+  "main": "dist/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZechariahWintheiser/dolorumquasi.git"
+  },
+  "keywords": [
+    "molestias",
+    "ethereum",
+    "eth",
+    "soluta",
+    "dapp"
+  ],
+  "prepublish": "npm run build",
+  "author": "LaurenHagenes",
+  "license": "MIT",
+  "unpkg": "dist/index.min.js",
+  "homepage": "https://github.com/ZechariahWintheiser/dolorumquasi.git",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "uglify-js": "^3.3.11"
+  }
+}
